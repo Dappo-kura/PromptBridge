@@ -95,6 +95,21 @@ const TOP_MAP = {
 // ネガティブ用 Embeddings などは本ツールでは使わないためスキップ
 const SKIP_TOP = new Set(["ネガティブなプロンプト"]);
 
+// 元データ(yaml)側の誤分類をタグ単位で修正するオーバーライド
+const CATEGORY_OVERRIDES = {
+  head_tilt: "pose",
+};
+
+// 裸の一般名詞（どんな文にも現れてノイズになる）は取り込まない
+const GENERIC_SKIP = new Set([
+  "head", "face", "body", "skin", "hair", "eye", "eyes", "mouth", "nose",
+  "ear", "ears", "hand", "hands", "leg", "legs", "arm", "arms", "foot",
+  "feet", "finger", "fingers", "neck", "chest", "back", "human", "person",
+  "people", "character", "color", "colors", "light", "lights", "dark",
+  "young", "old", "new", "big", "small", "long", "short", "wide", "high",
+  "low", "front", "side", "top", "bottom", "left", "right", "center",
+]);
+
 // ---- ユーティリティ ------------------------------------------------------
 const isAscii = (s) => /^[\x20-\x7e]+$/.test(s);
 const norm = (t) => t.toLowerCase().replace(/_/g, " ").trim();
@@ -134,19 +149,22 @@ for (const top of doc ?? []) {
     const category = GROUP_MAP[group?.name] ?? TOP_MAP[top.name] ?? "other";
     const tags = group?.tags ?? {};
     for (const [rawTag, rawJa] of Object.entries(tags)) {
-      const tag = String(rawTag).trim();
+      // Danbooru の慣習に合わせて小文字 + アンダースコア表記に正規化
+      const tag = String(rawTag).trim().toLowerCase().replace(/\s+/g, "_");
       const ja = String(rawJa ?? "").trim();
       const key = norm(tag);
       // ASCIIタグのみ / base優先 / baseのエイリアスと衝突するタグは除外
       if (!tag || !isAscii(tag) || !ja) { skipped++; continue; }
+      if (GENERIC_SKIP.has(key)) { skipped++; continue; }
       if (seen.has(key) || baseTagKeys.has(key) || baseAliasKeys.has(key)) { skipped++; continue; }
       seen.add(key);
 
       // baseの日本語エイリアスと重複する照合語は除外（baseの優先を保証）
       const aliases = jaAliases(ja).filter((a) => !baseAliasKeys.has(a));
 
-      entries.push({ tag, ja, category, aliases, priority: 50 });
-      stats[category] = (stats[category] ?? 0) + 1;
+      const finalCategory = CATEGORY_OVERRIDES[tag] ?? category;
+      entries.push({ tag, ja, category: finalCategory, aliases, priority: 50 });
+      stats[finalCategory] = (stats[finalCategory] ?? 0) + 1;
     }
   }
 }

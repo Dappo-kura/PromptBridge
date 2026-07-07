@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "import-tags": "node scripts/import-tags.mjs"
+    "import-tags": "node scripts/import-tags.mjs",
+    "import-danbooru": "node scripts/import-danbooru.mjs"
   },
   "dependencies": {
     "next": "^14.2.5",

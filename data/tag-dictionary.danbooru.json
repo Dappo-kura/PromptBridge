@@ -1,0 +1,10978 @@
+[
+  {
+    "tag": "blue_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_sky",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blurry_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "cloud",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "cloudy_sky",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "grass",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "on_bed",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "pink_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "water",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bush",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "desk",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "horizon",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "on_couch",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "orange_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "polka_dot_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pool",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rock",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "water_drop",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wind",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "against_wall",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "aqua_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "autumn_leaves",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bare_tree",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "beach_umbrella",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "brick_wall",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "chain-link_fence",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "dark_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "evening",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "greyscale_with_colored_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grid_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mountainous_horizon",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "on_desk",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "photo_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "poolside",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "star_symbol_background",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "summer",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tile_wall",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "winter",
+    "ja": "",
+    "category": "background",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "breasts",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "collarbone",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "large_breasts",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "sidelocks",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "thighs",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "abs",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "ass_visible_through_thighs",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "cat_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "colored_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "covered_navel",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "cum_on_body",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "demon_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "eyelashes",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "fox_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "horse_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "muscular_male",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "rabbit_ears",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "scar_on_face",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "stomach",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "upper_teeth_only",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_pupils",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "angel_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "arm_under_breasts",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bare_back",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bird_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_sclera",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "body_fur",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "breasts_out",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "breasts_squeezed_together",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "chibi_only",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "colored_sclera",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "covering_breasts",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cow_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cum_on_breasts",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "demon_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "dog_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "dragon_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ear_covers",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "eyebrows",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fake_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "feathered_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fish_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grey_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_between_own_legs",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hands_on_own_hips",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "huge_ahoge",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "long_legs",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "long_sidelocks",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mole_on_breast",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mouse_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "multicolored_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "muscular_female",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "presenting_own_body",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rabbit_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "raised_eyebrows",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "raised_inner_eyebrows",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_pupils",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "scar_on_cheek",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "short_hair_with_long_locks",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "single_horn",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "skin_tight",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "skin-covered_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "steaming_body",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tail_ornament",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tail_raised",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "thigh_gap",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wide_hips",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wolf_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animal_ear_headphones",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "arms_under_breasts",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bird_ears",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "body_markings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "body_writing",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bound_legs",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "brown_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "colored_inner_animal_ears",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "covered_collarbone",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cow_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cum_on_tongue",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "dragon_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "flower-shaped_pupils",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hand_on_another's_back",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hand_on_own_thigh",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart_ahoge",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ice_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lower_teeth_only",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multiple_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "one-piece_tan",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pectoral_cleavage",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_pupils",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "presenting_own_armpit",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "raccoon_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_sclera",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_wings",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "scar_on_arm",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "scar_on_chest",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "see-through_cleavage",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shark_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sheep_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_ear_cover",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_wing",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "stomach_bulge",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tiger_tail",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "traditional_halo",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "turn_pale",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two-tone_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "very_dark_skin",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_horns",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "wing_hair_ornament",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_sclera",
+    "ja": "",
+    "category": "body",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pov",
+    "ja": "",
+    "category": "camera",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "out_of_frame",
+    "ja": "",
+    "category": "camera",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "frills",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "official_alternate_costume",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "underwear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "black_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_boots",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "black_socks",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blue_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bodysuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "detached_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "grey_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "hood",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "hood_down",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "no_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "no_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "open_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "piercing",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "pink_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "plaid_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "see-through_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "short_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "side-tie_bikini_bottom",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "striped_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_apron",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_socks",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "animal_ear_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animal_ear_piercing",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "aqua_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "backless_outfit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bandeau",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "belt_buckle",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bikini_under_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_bodysuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_capelet",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_hoodie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_one-piece_swimsuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_sailor_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_serafuku",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blood_on_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_boots",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_one-piece_swimsuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_sailor_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_scarf",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bow_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bow_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bow_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_boots",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_cardigan",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_pantyhose",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brown_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "checkered_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clitoral_hood",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clothing_aside",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "collared_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ear_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "eye_mask",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fishnet_pantyhose",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fishnet_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "formal_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "frilled_apron",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "frilled_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "frilled_hair_tubes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "frilled_shirt_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "frilled_thigh_strap",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "garter_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grey_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grey_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grey_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grey_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grey_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hakama",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "high_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "highleg_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "highleg_one-piece_swimsuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "highleg_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hood_up",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hooded_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lab_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lace_trim",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lifting_own_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "male_underwear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "micro_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "missing_headwear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "multicolored_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "nipple_piercing",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "no_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "open_cardigan",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "open_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "orange_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "panties_around_one_leg",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "panties_aside",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "peaked_cap",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pocket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pulling_own_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rabbit_ear_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_boots",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_choker",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_scarf",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "revealing_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ribbon_trim",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ribbon-trimmed_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sarashi",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "short_over_long_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "side-tie_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sports_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "strapless_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "striped_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "striped_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "striped_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "striped_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "suit_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "thong_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tight_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "torn_pantyhose",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tracen_school_uniform",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tress_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "two-tone_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "underwear_only",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "uniform",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "unworn_eyewear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "unworn_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "unworn_headwear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "veil",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "vertical-striped_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "visor_cap",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wet_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_boots",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_capelet",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_choker",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_hoodie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_one-piece_swimsuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_sailor_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_scarf",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wing_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "winter_uniform",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "zipper",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animal_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "aqua_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "argyle_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "arm_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "baggy_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "barbell_piercing",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "belt_pouch",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_armor",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_camisole",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_mask",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_sandals",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_sash",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_scarf",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_sports_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_veil",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_bodysuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_capelet",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_choker",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_hoodie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_socks",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bra_lift",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bra_strap",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bra_visible_through_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "brown_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "chest_sarashi",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "clothes_between_breasts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "clothes_grab",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "coat_on_shoulders",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "contrast_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cow_print_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cow_print_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "crescent_hat_ornament",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cum_on_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "diagonal-striped_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "diagonal-striped_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ear_ribbon",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "erection_under_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "face_piercing",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "floating_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "floating_earrings",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "floral_print_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "footwear_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "frilled_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "frilled_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "frilled_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "frilled_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fur-trimmed_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fur-trimmed_capelet",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gold_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gold_bracelet",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gold_earrings",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gradient_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_bikini",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_pants",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_sailor_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_cardigan",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_coat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_hoodie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_pantyhose",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_sailor_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_socks",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "grey_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gym_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hakama_short_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hasu_no_sora_school_uniform",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart-shaped_eyewear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "high_heel_sandals",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "high-waist_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "idol_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lace-trimmed_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lace-trimmed_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lace-trimmed_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "large_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mandarin_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "medium_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "medium_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multi-strapped_bikini_bottom",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multicolored_bodysuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "naked_apron",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "naked_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "navel_piercing",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "necktie_between_breasts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "no_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "o-ring_choker",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "open_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "open_hoodie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "open_kimono",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "open_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "orange_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "orange_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "orange_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "orange_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pantyhose_under_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_boots",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_cardigan",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_choker",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "plaid_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "plaid_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "platform_sandals",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "polka_dot_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "print_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "print_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_leotard",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_necktie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_pantyhose",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "rectangular_eyewear",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_armband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_bodysuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_bra",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_capelet",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_hakama",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_headband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_sash",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "see-through_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sleeveless_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "spiked_collar",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "star_hat_ornament",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "string_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "striped_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "striped_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "striped_pantyhose",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "superhero_costume",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sweater_lift",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tail_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tassel_earrings",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "thigh_belt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "three-quarter_sleeves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "torn_dress",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "traditional_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "turtleneck_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two-sided_cape",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two-tone_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two-tone_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unworn_clothes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unworn_jacket",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unworn_panties",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unworn_shoes",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unworn_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "vertical-striped_shirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "vertical-striped_thighhighs",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "waist_bow",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_bodysuit",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_camisole",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_headband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_veil",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_vest",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_bowtie",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_cardigan",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_gloves",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_hairband",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_hat",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_shorts",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_skirt",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_sweater",
+    "ja": "",
+    "category": "clothing",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blush_stickers",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "embarrassed",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "light_smile",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "sweatdrop",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "full-face_blush",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "happy_sex",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "light_frown",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "nervous_sweating",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "surprised",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tareme",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tsurime",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "nervous",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "nervous_smile",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "small_sweatdrop",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "spoken_blush",
+    "ja": "",
+    "category": "expression",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bags_under_eyes",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "covered_eyes",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "disembodied_linked_eye",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "averting_eyes",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "glowing_eye",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "half-closed_eye",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart_in_eye",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "long_hair_between_eyes",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "third_eye",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two-tone_eyes",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "v_over_eye",
+    "ja": "",
+    "category": "eyes",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "looking_at_object",
+    "ja": "",
+    "category": "gaze",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "looking_at_penis",
+    "ja": "",
+    "category": "gaze",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "aqua_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "colored_inner_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "facial_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "female_pubic_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "floating_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "gradient_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "hair_intakes",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "hair_over_one_eye",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "low_twintails",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "orange_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "parted_bangs",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "pubic_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "single_braid",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "spiked_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "absurdly_long_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "asymmetrical_bangs",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "asymmetrical_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "crown_braid",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cum_on_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "curtained_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "double-parted_bangs",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "eyebrows_hidden_by_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "flipped_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "folded_ponytail",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hair_over_eyes",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hair_over_shoulder",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hair_scrunchie",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hair_slicked_back",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "half_up_braid",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_in_own_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "low_ponytail",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "low-tied_long_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "male_pubic_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "on_chair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "short_twintails",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "side_braid",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "split-color_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tentacle_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "very_short_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "armpit_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "big_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bow-shaped_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "center-flap_bangs",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "chest_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "convenient_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hair_over_breasts",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_another's_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_own_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "low-braided_long_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multi-tied_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "navel_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "parted_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "school_chair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "swivel_chair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tying_hair",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "very_long_braid",
+    "ja": "",
+    "category": "hair_style",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "glowing",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "shadow",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "light_rays",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shade",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "dappled_sunlight",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "drop_shadow",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sunbeam",
+    "ja": "",
+    "category": "lighting",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "artist_name",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "ass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "censored",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "heart",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "hetero",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "male_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "nude",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "one_eye_closed",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "penis",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "virtual_youtuber",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "?",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "^_^",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "alternate_hairstyle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "animal",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "anus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bandages",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bare_arms",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "blood",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bottomless",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "bound",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "chain",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "character_name",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "completely_nude",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "copyright_name",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "covered_nipples",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "cum",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "cum_in_pussy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "dark-skinned_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "dark-skinned_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "dated",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "demon_girl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "eating",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "english_text",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "erection",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "feathers",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "fire",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "hand_on_own_hip",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "leaf",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "military",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "mosaic_censoring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "off_shoulder",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "own_hands_together",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "petals",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "phone",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "playboy_bunny",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "pokemon_(creature)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "pussy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "pussy_juice",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "red_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "scrunchie",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "sex",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "sex_from_behind",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "sideboob",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "skindentation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "smartphone",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "soles",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "sparkle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "speech_bubble",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "strapless",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "stuffed_toy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "testicles",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "toes",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "two_side_up",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "uncensored",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "underboob",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "vaginal",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "wet",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_border",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "white_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "zettai_ryouiki",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": ";)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": ":<",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": ":t",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "!",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "!?",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "...",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "@_@",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "^^^",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "+++",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "=_=",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": ">_<",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "|_|",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "2koma",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "3d",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "3koma",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "5boys",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "5girls",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "abyssal_ship",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "after_sex",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "after_vaginal",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "age_difference",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "aged_down",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "aged_up",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "aircraft",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "alcohol",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "alternate_breast_size_(larger)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "alternate_color",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "alternate_eye_color",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "anal",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "androgynous",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "android",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animal_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animal_hands",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animal_nose",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animalization",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "anime_coloring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "animification",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "antennae",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "aqua_nails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "areola_slip",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "arm_strap",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "arm_warmers",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "arrow_(projectile)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "artist_logo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "assault_rifle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ball",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "balloon",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bandaid_on_face",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bara",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "battle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bdsm",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "beachball",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "beads",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "beanie",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "beard",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bishounen",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_border",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_cat",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "black_tank_top",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blanket",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blood_on_face",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_gem",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_nails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_neckerchief",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_rose",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blue_theme",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "blunt_ends",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bondage",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "borrowed_character",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bottle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "box",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bread",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "breast_press",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "breath",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "broom",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "brother_and_sister",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bubble",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "buckle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bug",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bulge",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "bun_cover",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "butt_crack",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "butterfly",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "card",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "card_(medium)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "center_opening",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "character_doll",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "chinese_text",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "chinese_zodiac",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "claws",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cleft_of_venus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clitoris",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clock",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clothed_female_nude_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clothed_sex",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "colored_tips",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "company_name",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "condom",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "condom_wrapper",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cone_hair_bun",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "confetti",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "contemporary",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "contrapposto",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "controller",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "convenient_censoring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "copyright_notice",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cover_page",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "covering_own_mouth",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "covering_privates",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cowgirl_position",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "creature",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cropped_torso",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "crossdressing_(mtf)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "crotch_seam",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cum_in_ass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cum_in_mouth",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cum_overflow",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "cumdrip",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "dakimakura_(medium)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "dildo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "disembodied_hand",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "disposable_cup",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "doggystyle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "doujin_cover",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "drinking_straw",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "dual_persona",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "duel_monster",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "eighth_note",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ejaculation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "electricity",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "emphasis_lines",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "enmaided",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "epaulettes",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "eyeliner",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "face-to-face",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "faceless",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "faceless_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "facial",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "facial_tattoo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "facing_viewer",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "falling_petals",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "feather_hair_ornament",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fellatio",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "female_masturbation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "femdom",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "film_grain",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fins",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "fish",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "flag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "furry_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "furry_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "futa_with_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "futanari",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "gagged",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "gakuran",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "gangbang",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "gauntlets",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "genderswap",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "genderswap_(mtf)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ghost",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "gift",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "girl_on_top",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "glass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "glint",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "gold_trim",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grabbing_another's_arm",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grabbing_another's_breast",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "grabbing_own_breast",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "green_nails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "group_sex",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "half_updo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_fan",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_on_another's_face",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_on_own_arm",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_on_own_face",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_on_own_head",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hand_to_own_mouth",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "handbag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "handjob",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hands_in_pockets",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "headpat",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "heart_censor",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "heart_hands",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "height_difference",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hitodama",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "holster",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hug_from_behind",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "huge_ass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ice",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "id_card",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "imminent_penetration",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "incest",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "injury",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "inkling",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "innertube",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "instrument",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "interracial",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "interspecies",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "inverted_nipples",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "jingle_bell",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "kemonomimi_mode",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "kiss",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "knees_up",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "knife",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "korean_text",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lactation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lamp",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lantern",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lapels",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "large_areolae",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "large_penis",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "letterboxed",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "light_particles",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "limited_palette",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lingerie",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "logo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lolita_fashion",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "lollipop",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "low_twin_braids",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "masturbation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mature_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mecha_pilot_suit",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "meme",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mini_person",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mirror",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mother_and_child",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mother_and_daughter",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "motor_vehicle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "mug",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "multiple_others",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "multiple_rings",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "multiple_tails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "musical_note",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "name_tag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "nipple_slip",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "nipple_stimulation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "nipple_tweak",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "notched_lapels",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "notice_lines",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "o_o",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "object_insertion",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "oekaki",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "official_alternate_hairstyle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "on_floor",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "on_ground",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "one_eye_covered",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "one-hour_drawing_challenge",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "oni",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "open_hand",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "orgasm",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "other_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "own_hands_clasped",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "page_number",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "paizuri",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "panty_pull",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "paper",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "parallel_hairclips",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "parent_and_child",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "partially_submerged",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "partially_visible_vulva",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "patreon_logo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pauldrons",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pen",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "petticoat",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pink_lips",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "poke_ball",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "poke_ball_(basic)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pokemon_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "polearm",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pom_pom_(cheerleading)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "popsicle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "potted_plant",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pouch",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pov_crotch",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "pov_hands",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "precum",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "puffy_nipples",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "purple_nails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rabbit",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rabbit_girl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rabbit_hair_ornament",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rape",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_ascot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_eyeshadow",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_rose",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "red_streaks",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "reference_sheet",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "reflection",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "retro_artstyle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rifle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "robot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "rope",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "saliva_trail",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sample_watermark",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "selfie",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sex_toy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shawl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sheath",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sheathed",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shibari",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shield",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "ship_turret",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shoulder_bag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shoulder_cutout",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "shoulder_tattoo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sideburns",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sign",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "silent_comic",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "single_bare_shoulder",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "single_side_bun",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "single_thighhigh",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "size_difference",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "skull",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sleeve_cuffs",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "smoke",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sound_effects",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spaghetti_strap",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spear",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spikes",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "split_mouth",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spoken_ellipsis",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spoken_heart",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spoken_question_mark",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spread_arms",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spread_pussy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "spreading_own_pussy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "squiggle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "staff",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "straight-on",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "strawberry",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "stuffed_rabbit",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "style_parody",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "sunflower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "surrounded_by_penises",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "swim_ring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tabard",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tachi-e",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "tentacles",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "thighlet",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "thong",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "thought_bubble",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "threesome",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "toned",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "toned_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "topless_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "topless_male",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "towel",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "twins",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "unbuttoned",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "under_covers",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "undercut",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "veins",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "veiny_penis",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "vibrator",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "vision_(genshin_impact)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "watch",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "web_address",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wedding_ring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "weibo_watermark",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_ascot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_fur",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_outline",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_rose",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_streaks",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_tank_top",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "white_wrist_cuffs",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wide-eyed",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wine_glass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "wooden_floor",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_ascot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "yellow_neckerchief",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": ";o",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": ":/",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": ":|",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "!!",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": ">:)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "0_0",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "1990s_(style)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "2000s_(style)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "2others",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "aerial_fireworks",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "afterimage",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "air_bubble",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "airplane",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alien",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alphes_(style)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alternate_hair_color",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alternate_hair_length",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alternate_hair_length_(longer)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alternate_hair_length_(shorter)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "alternate_universe",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "american_flag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "anal_object_insertion",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "anchor",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "animal_on_shoulder",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "anniversary",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "areolae",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "arm_around_shoulder",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "arm_guards",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "arthropod_girl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "artist_self-insert",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "assertive_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "aura",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "baby_animal",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "backboob",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "badge",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ball_gag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bandaged_hand",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bandaid_on_cheek",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bandaid_on_nose",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "barcode",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bare_pectorals",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "baseball_bat",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bat_(animal)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bath",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bathtub",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "beamed_eighth_notes",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "beard_stubble",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "beer",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bestiality",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "biceps",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "birthday",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_ascot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_bag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_cloak",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_corset",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_fur",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_neckerchief",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_robe",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_streaks",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "black_suit",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blinking",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blood_from_mouth",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blood_on_hand",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blood_on_weapon",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blood_splatter",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_ascot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_buruma",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_butterfly",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_fire",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_overalls",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "blue_streaks",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bonnet",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "boy_on_top",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "braided_base",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "braided_bun",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "braided_hair_rings",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "breast_rest",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "breast_sucking",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bride",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "broken",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "brothers",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "brown_bag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "brown_fur",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bruise",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bukkake",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "bun_with_braided_base",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cake_slice",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "camouflage",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cardboard_box",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cat_boy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "chalkboard",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "charm_(object)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "checkered_floor",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cherry",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "chest_harness",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "chest_tattoo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "clipboard",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "clothed_male_nude_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "coffee_mug",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "colored_extremities",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "colored_speech_bubble",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "company_connection",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "content_rating",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "copyright_logo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "corruption",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cowbell",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cowlick",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "crack",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cube_hair_ornament",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cum_on_ass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "cum_string",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "d:",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "defeat",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "deformed",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "demon_boy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "digimon_(creature)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "dirty",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "dog_boy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "doll_joints",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "donut",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "double_penetration",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "downblouse",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "dragon_boy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "draph",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "drink_can",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "drink_carton",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "earclip",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "elbow_rest",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "electric_guitar",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "erune",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "exhibitionism",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "explosive",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "eyes_out_of_frame",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "faceless_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fake_screenshot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "falling",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "falling_leaves",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fashion",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fat_man",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "father_and_child",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "father_and_daughter",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fedora",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "female_ejaculation",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ffm_threesome",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "flower_knot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "flower_wreath",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "food_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "footjob",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "foreskin",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "foursome",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "frog",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "fucked_silly",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "game_controller",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gameplay_mechanics",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "gap_(touhou)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "genderswap_(ftm)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "giant",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_gem",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "green_theme",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hand_on_own_ass",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "head_on_pillow",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heads_together",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "headscarf",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart_brooch",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart_of_string",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart_pasties",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "heart-shaped_food",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hip_vent",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "house",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "huge_penis",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "humanization",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "husband_and_wife",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ice_cream_cone",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "implied_sex",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "infection_monitor_(arknights)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "internal_cumshot",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "jaggy_lines",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "jiangshi",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "kissing_cheek",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "kogal",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "kote",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lanyard",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "laptop",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "leg_tattoo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lightning_bolt_symbol",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lily_(flower)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "linea_alba",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "lineart",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "long_sideburns",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "loose_hair_strand",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "maebari",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "magatama",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "magic_circle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "male_penetrated",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "manly",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "material_growth",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mecha_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "median_furrow",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "merfolk",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "merry_christmas",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "midair",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "millennium_science_school_logo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mind_control",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "miqo'te",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mixed-language_text",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mmf_threesome",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mobile_suit",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "monitor",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "monster_boy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mouse_(animal)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mouse_girl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multiple_belts",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multiple_expressions",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multiple_hair_bows",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multiple_moles",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "mushroom",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "naked_towel",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "name_connection",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "nekomata",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "netorare",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "nun_headdress",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "obijime",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "octoling",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "official_style",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "old_man",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "on_one_knee",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "one_breast_out",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "one-eyed",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "onee-shota",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "open_hands",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "orange_flower",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "orb",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "oripathy_lesion_(arknights)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "out-of-frame_censoring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "over_shoulder",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "oversized_object",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "painterly",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "paper_lantern",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pawpads",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pee",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "peeing",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "picture_frame",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pillar",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_neckerchief",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_rose",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_streaks",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pink_theme",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pinstripe_pattern",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "planted",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "plugsuit_(evangelion)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pointless_censoring",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "policewoman",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pom_pom_hair_ornament",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "poster_(object)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "projectile_cum",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "prosthesis",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "pubic_tattoo",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "puff_of_air",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_lips",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "purple_theme",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "raised_eyebrow",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "randoseru",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ranguage",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "recording",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_buruma",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_eyeliner",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_gem",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "red_theme",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "reference_inset",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "remote_control_vibrator",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "reverse_cowgirl_position",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "ribs",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "rice",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sakazuki",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "same-sex_bathing",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sandwiched",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sanpaku",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sarong",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "saucer",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "scene_reference",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "scroll",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sepia",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sexually_suggestive",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shark_girl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shelf",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shimenawa",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shiny_pokemon",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shopping_bag",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shoulder_blades",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "shoulder_pads",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "side_braids",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "side-by-side",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sidelighting",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_hair_intake",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_mechanical_arm",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_off_shoulder",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_pauldron",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "single_sidelock",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "skeleton",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "slice_of_life",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "slime_(substance)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sniper_rifle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sphere_hair_ornament",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "split",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "spoken_exclamation_mark",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "spoken_musical_note",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "squeans",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "sticker",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "stool",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "strap",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "strap_gap",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "string",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "studs",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "submachine_gun",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "suitcase",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "syringe",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tacet_mark_(wuthering_waves)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tailcoat",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tape",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tassel_hair_ornament",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tasuki",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tate_eboshi",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "teamwork_(sexual)",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "television",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tentacle_sex",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "text_focus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "thank_you",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tiger_girl",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "tomboy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "toned_female",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "torogao",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "track_suit",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "train_interior",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "trait_connection",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "turning_head",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "twisted_torso",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two_tails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "two-tone_fur",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unconventional_maid",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "unzipped",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "used_condom",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "uterus",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "utility_pole",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "vaginal_object_insertion",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "very_sweaty",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "vines",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "voice_actor_connection",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "watermelon",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "whiskers",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "whistle",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_bloomers",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_neckerchief",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "white_robe",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "wolf_boy",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "xd",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_fur",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yellow_nails",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "yin_yang",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "zoophilia",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "zzz",
+    "ja": "",
+    "category": "other",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "hand_up",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "flying_sweatdrops",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "hands_up",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "holding_weapon",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "clenched_hand",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "clenched_hands",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "floating",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "holding_own_dress",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "holding_stuffed_toy",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "holding_unworn_clothes",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "hugging_object",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "outstretched_hand",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "reaching_towards_viewer",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "seiza",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "standing_sex",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "stretching",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "carrying_person",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "floating_object",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_another's_wrist",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_controller",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_own_skirt",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_pom_poms",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_removed_eyewear",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "holding_unworn_hat",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "leaning_on_person",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "squatting_cowgirl_position",
+    "ja": "",
+    "category": "pose",
+    "aliases": [],
+    "priority": 20
+  },
+  {
+    "tag": "multiple_boys",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 40
+  },
+  {
+    "tag": "1other",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "4girls",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "6+girls",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "siblings",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 35
+  },
+  {
+    "tag": "4boys",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "6+boys",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 30
+  },
+  {
+    "tag": "couple",
+    "ja": "",
+    "category": "subject",
+    "aliases": [],
+    "priority": 30
+  }
+]

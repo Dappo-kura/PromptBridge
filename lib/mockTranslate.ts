@@ -16,9 +16,12 @@ function buildPairs(from: Lang): Pair[] {
   const pairs: Pair[] = [];
   for (const e of entries) {
     if (e.category === "negative" || e.category === "quality") continue;
+    if (!e.ja) continue; // 日本語訳のないエントリ（Danbooru由来）は対訳に使えない
     const en = e.tag.replace(/_/g, " ");
     if (from === "ja") {
-      const jaWords = [e.ja, ...e.aliases.filter((a) => !isAscii(a))];
+      const jaWords = [e.ja, ...e.aliases.filter((a) => !isAscii(a))].filter(
+        (w) => w.length >= 2,
+      );
       for (const w of jaWords) pairs.push({ from: w, to: en });
     } else {
       const enWords = [en, ...e.aliases.filter(isAscii)];

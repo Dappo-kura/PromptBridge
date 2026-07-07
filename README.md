@@ -96,14 +96,24 @@ smile, looking_at_viewer
 - **長いエイリアス優先 + マッチ範囲の消費**により、「白いワンピース」に `white_dress` と `dress` が二重ヒットするのを防止
 - タグモードでは**原文と翻訳文の両方**を照合するため、翻訳の揺れによる取りこぼしを軽減
 
-## タグ辞書（2層構成）
+## タグ辞書（3層構成）
 
 | ファイル | 役割 |
 | --- | --- |
 | `data/tag-dictionary.json` | **手動管理**。豊富なエイリアス・優先度付き。常に優先される |
-| `data/tag-dictionary.generated.json` | **自動生成**（約3,400タグ）。prompt-all-in-one 拡張のタグデータから取り込み |
+| `data/tag-dictionary.generated.json` | **自動生成**（約3,400タグ）。prompt-all-in-one 拡張のタグデータから取り込み（日英対訳あり） |
+| `data/tag-dictionary.danbooru.json` | **自動生成**（約1,600タグ）。[Danbooru タグAPI](https://danbooru.donmai.us/tags.json) の使用頻度上位 general タグから取り込み（英語照合のみ） |
 
-両者は `lib/dictionary.ts` でマージされ、同じタグは手動辞書が勝ちます。
+3層は `lib/dictionary.ts` でマージされ、同じタグは上の層が勝ちます。合計約5,000タグ。
+
+### Danbooru からの取り込み
+
+```bash
+npm run import-danbooru        # 使用頻度上位3000タグから未収録分を取り込み
+npm run import-danbooru -- 5   # ページ数指定（1ページ=1000タグ、最大10）
+```
+
+既存2層に存在するタグ・エイリアスは自動で除外されます。カテゴリはタグ名からヒューリスティックに推定します（`scripts/import-danbooru.mjs` の `LEX` で調整可能）。メタ情報系タグ（commentary等）と裸の一般名詞（head, face等。誤マッチの原因になる）は除外されます。
 
 ### 生成辞書の更新（prompt-all-in-one からの取り込み）
 

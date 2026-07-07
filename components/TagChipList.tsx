@@ -42,13 +42,13 @@ export default function TagChipList({ tags }: { tags: MatchedTag[] }) {
               {items.map((t) => (
                 <span
                   key={t.tag}
-                  title={`${t.ja} / カテゴリ: ${CATEGORY_LABELS[t.category] ?? t.category} / マッチ: ${t.matchedText}`}
+                  title={`${t.ja ? `${t.ja} / ` : ""}カテゴリ: ${CATEGORY_LABELS[t.category] ?? t.category} / マッチ: ${t.matchedText}`}
                   className={`cursor-default rounded-full border bg-[#1a1d24] px-2.5 py-1 text-xs ${
                     CATEGORY_COLORS[t.category] ?? CATEGORY_COLORS.other
                   }`}
                 >
                   {t.tag}
-                  <span className="ml-1.5 text-[10px] text-gray-500">{t.ja}</span>
+                  {t.ja && <span className="ml-1.5 text-[10px] text-gray-500">{t.ja}</span>}
                 </span>
               ))}
             </div>
