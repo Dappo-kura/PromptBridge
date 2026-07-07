@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #14161b;
+}
+::-webkit-scrollbar-thumb {
+  background: #333845;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #454c5e;
+}
+
+textarea {
+  font-feature-settings: "palt";
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-toast-in {
+  animation: toast-in 0.18s ease-out;
+}
