@@ -8,7 +8,12 @@ import {
   normalizeTags,
   sortTagsByCategory,
 } from "@/lib/tagger";
-import type { ConvertResponse, Lang, Mode } from "@/lib/types";
+import {
+  extractWithLLM,
+  llmExtractorAvailable,
+  llmExtractorName,
+} from "@/lib/llmExtract";
+import type { ConvertResponse, Lang, MatchedTag, Mode } from "@/lib/types";
 
 const VALID_MODES: Mode[] = ["ja-en-ja", "en-ja-en", "ja-en-tags", "en-ja-tags"];
 
@@ -41,7 +46,24 @@ export async function POST(req: Request) {
       const jaText = from === "ja" ? text : intermediate.text;
       const enText = from === "en" ? text : intermediate.text;
 
-      const elements = extractSemanticElements({ ja: jaText, en: enText });
+      // GEMINI_API_KEY があれば LLM で意味抽出（高精度）。
+      // 未設定・失敗時は従来の辞書照合にフォールバックする。
+      let elements: MatchedTag[];
+      let extractor: string;
+      if (llmExtractorAvailable()) {
+        try {
+          elements = await extractWithLLM({ ja: jaText, en: enText });
+          extractor = llmExtractorName();
+        } catch (err) {
+          console.error("LLM tag extraction failed, falling back to dictionary:", err);
+          elements = extractSemanticElements({ ja: jaText, en: enText });
+          extractor = "辞書照合（LLM失敗のためフォールバック）";
+        }
+      } else {
+        elements = extractSemanticElements({ ja: jaText, en: enText });
+        extractor = "辞書照合";
+      }
+
       const noTagsMatched = elements.length === 0;
       const tags = sortTagsByCategory(normalizeTags(convertToDanbooruTags(elements)));
 
@@ -51,6 +73,7 @@ export async function POST(req: Request) {
         intermediate: intermediate.text,
         final: null,
         provider: intermediate.provider,
+        extractor,
         tags,
         positivePrompt: buildPositivePrompt(tags),
         negativePrompt: buildNegativePrompt(),

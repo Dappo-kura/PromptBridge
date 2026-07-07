@@ -460,6 +460,11 @@ export default function Home() {
           {rightTab === "prompt" && hasPrompt && result && (
             <>
               <div className="flex flex-1 flex-col gap-3 overflow-y-auto p-4">
+                {result.extractor && (
+                  <div className="text-[10px] text-gray-600">
+                    タグ抽出: {result.extractor}
+                  </div>
+                )}
                 {result.noTagsMatched && (
                   <p className="rounded-md border border-amber-500/40 bg-amber-500/10 px-3 py-2 text-xs leading-relaxed text-amber-300">
                     該当タグなし: 入力文から辞書に一致するタグが見つかりませんでした（品質タグのみ出力しています）

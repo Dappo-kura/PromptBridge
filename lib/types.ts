@@ -46,6 +46,8 @@ export interface ConvertResponse {
   final: string | null;
   /** 使用した翻訳プロバイダ名 */
   provider: string;
+  /** タグ抽出の方式（タグモードのみ。例: "Gemini (gemini-2.5-flash)" / "辞書照合"） */
+  extractor?: string;
   /** タグモードのみ。マッチしたタグ（カテゴリ順ソート済み） */
   tags: MatchedTag[] | null;
   positivePrompt: string | null;
