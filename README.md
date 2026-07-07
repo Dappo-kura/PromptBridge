@@ -2,6 +2,8 @@
 
 日本語・英語の翻訳と、Stable Diffusion 向け Danbooru タグプロンプト変換を行う 3 ペイン Web ツールです。
 
+**🌐 Web版（インストール不要）: https://promptbridge-plum.vercel.app**
+
 - **左ペイン**: 入力テキスト / 入力言語 / 変換モード / 実行ボタン / 変換履歴
 - **中央ペイン**: 翻訳結果（中間翻訳・再翻訳）+ コピー
 - **右ペイン**: Positive Prompt / Negative Prompt / タグ詳細（カテゴリ・日本語意味）+ コピー
