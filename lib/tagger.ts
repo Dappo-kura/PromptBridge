@@ -138,6 +138,25 @@ export function normalizeTags(tags: MatchedTag[]): MatchedTag[] {
   for (const [present, excluded] of Object.entries(EXCLUSIONS)) {
     if (map.has(present)) for (const e of excluded) map.delete(e);
   }
+
+  // より具体的なタグに単語単位で包含される汎用タグを除去
+  // 例: white_dress があれば dress を落とす（LLM抽出で両方出ることがある）
+  // ただし包含する側が辞書外のAI提案タグ(priority 10)の場合は、
+  // 辞書に実在する汎用タグを優先して残す
+  const words = (tag: string) => tag.toLowerCase().split(/[_\s]+/).filter(Boolean);
+  const list = [...map.values()];
+  for (const a of list) {
+    const wa = words(a.tag);
+    const isSubsumed = list.some((b) => {
+      if (a.tag === b.tag) return false;
+      if (b.priority <= 10 && a.priority > 10) return false;
+      const wb = words(b.tag);
+      if (wb.length <= wa.length) return false;
+      // a の単語列が b の単語列に連続部分列として含まれるか
+      return wb.some((_, i) => wa.every((w, j) => wb[i + j] === w));
+    });
+    if (isSubsumed && a.category !== "quality") map.delete(a.tag);
+  }
   return [...map.values()];
 }
 

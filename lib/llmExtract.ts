@@ -54,6 +54,7 @@ Rules:
 - Cover when present: subject count, hair color/style, eyes, body features, clothing, accessories, held items, expression, gaze direction, pose/action, camera angle/composition, background/scenery/time, lighting, art style
 - Do NOT include: quality tags (masterpiece, best quality, highres), artist names, character/copyright names unless explicitly written
 - Respect negation: if the text says something is absent (e.g. "not smiling", "no hat"), do NOT output that tag
+- Prefer the most common canonical Danbooru tag form: "sunset" not "sunset_lighting", "expressionless" not "straight_face", "smile" not "smiling_face"
 - Only tags clearly supported by the text. No speculation beyond it.
 - Typically 8-25 tags.
 
