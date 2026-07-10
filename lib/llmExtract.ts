@@ -1,15 +1,17 @@
 import { CATEGORY_ORDER } from "./categories";
 import { allEntries } from "./dictionary";
+import { openAIFailureReason } from "./llmCommon";
 import type { MatchedTag, TagEntry } from "./types";
 
 /**
- * LLM（Gemini）による意味ベースのタグ抽出。
+ * LLMによる意味ベースのタグ抽出。
  * 文字列照合では拾えない言い換え表現や、否定（「笑っていない」）を扱える。
  * 抽出結果はタグ辞書と照合し、辞書にあるタグは辞書側の定義
  * （日本語訳・カテゴリ・優先度）を正とする。
  *
- * 必要な環境変数: GEMINI_API_KEY（.env.local）
- * モデルの変更: GEMINI_MODEL（既定: gemini-2.5-flash）
+ * プロバイダの選択（画像→文章化と同じ方式）:
+ * - OPENAI_API_KEY があれば OpenAI（既定: gpt-4o-mini、OPENAI_MODEL で変更可）
+ * - なければ GEMINI_API_KEY で Gemini（既定: gemini-2.5-flash、GEMINI_MODEL で変更可）
  */
 
 const TIMEOUT_MS = 20000;
@@ -34,11 +36,7 @@ function dictIndex(): Map<string, TagEntry> {
 }
 
 export function llmExtractorAvailable(): boolean {
-  return !!process.env.GEMINI_API_KEY;
-}
-
-export function llmExtractorName(): string {
-  return `Gemini (${process.env.GEMINI_MODEL ?? "gemini-2.5-flash"})`;
+  return !!process.env.OPENAI_API_KEY || !!process.env.GEMINI_API_KEY;
 }
 
 const VALID_CATEGORIES = CATEGORY_ORDER.filter((c) => c !== "quality");
@@ -65,6 +63,46 @@ ${texts.en ? `Text (English):\n${texts.en}\n` : ""}`;
 interface LlmTag {
   tag?: unknown;
   category?: unknown;
+}
+
+async function callOpenAI(prompt: string): Promise<LlmTag[]> {
+  const key = process.env.OPENAI_API_KEY!;
+  const model = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  try {
+    const res = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      signal: controller.signal,
+      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model,
+        temperature: 0.1,
+        // JSONモードはオブジェクトのみ返せるため、配列を "tags" キーで包ませる
+        response_format: { type: "json_object" },
+        messages: [
+          {
+            role: "user",
+            content: `${prompt}\n\nReturn a JSON object of the form {"tags": [{"tag": "...", "category": "..."}]}.`,
+          },
+        ],
+      }),
+    });
+    if (!res.ok) {
+      const detail = await res.text().catch(() => "");
+      throw new Error(`OpenAI API error: HTTP ${res.status} ${detail.slice(0, 200)}`);
+    }
+    const data = await res.json();
+    const text = data?.choices?.[0]?.message?.content;
+    if (typeof text !== "string") throw new Error("OpenAI API: unexpected response shape");
+    const parsed = JSON.parse(text);
+    const tags = Array.isArray(parsed) ? parsed : parsed?.tags;
+    if (!Array.isArray(tags)) throw new Error("OpenAI API: response has no tags array");
+    return tags as LlmTag[];
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 async function callGemini(prompt: string): Promise<LlmTag[]> {
@@ -102,16 +140,39 @@ async function callGemini(prompt: string): Promise<LlmTag[]> {
   }
 }
 
+/** プロバイダを選んでLLMを呼ぶ。OpenAI失敗時はGeminiキーがあればフォールバック */
+async function callLlm(prompt: string): Promise<{ raw: LlmTag[]; provider: string }> {
+  const geminiName = `Gemini (${process.env.GEMINI_MODEL ?? "gemini-2.5-flash"})`;
+
+  if (process.env.OPENAI_API_KEY) {
+    try {
+      return {
+        raw: await callOpenAI(prompt),
+        provider: `OpenAI (${process.env.OPENAI_MODEL ?? "gpt-4o-mini"})`,
+      };
+    } catch (err) {
+      if (!process.env.GEMINI_API_KEY) throw err;
+      console.error("OpenAI tag extraction failed, falling back to Gemini:", err);
+      return {
+        raw: await callGemini(prompt),
+        provider: `${geminiName} ※${openAIFailureReason(err)}のためフォールバック`,
+      };
+    }
+  }
+  return { raw: await callGemini(prompt), provider: geminiName };
+}
+
 /**
  * LLMでタグ候補を抽出し、辞書と照合して MatchedTag[] を返す。
  * - 辞書にあるタグ → 辞書エントリを採用（カテゴリ・日本語訳・優先度は辞書が正）
  * - 辞書にないタグ → LLMのカテゴリ判定を採用した新規エントリとして返す
+ * extractor には実際に使われたプロバイダ名が入る（フォールバック時はその旨を付記）。
  */
 export async function extractWithLLM(texts: {
   ja?: string;
   en?: string;
-}): Promise<MatchedTag[]> {
-  const raw = await callGemini(buildPrompt(texts));
+}): Promise<{ tags: MatchedTag[]; extractor: string }> {
+  const { raw, provider } = await callLlm(buildPrompt(texts));
   const idx = dictIndex();
   const out = new Map<string, MatchedTag>();
 
@@ -147,5 +208,5 @@ export async function extractWithLLM(texts: {
       });
     }
   }
-  return [...out.values()];
+  return { tags: [...out.values()], extractor: provider };
 }

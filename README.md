@@ -42,8 +42,19 @@ copy .env.local.example .env.local   # Windows
 | --- | --- |
 | `TRANSLATE_PROVIDER` | `auto`（既定） / `deepl` / `google` / `mock` |
 | `DEEPL_API_KEY` | DeepL API のキー（任意）。設定すると DeepL を優先使用 |
+| `GEMINI_API_KEY` | Gemini API のキー（任意）。LLM タグ抽出と画像→文章化に使用 |
+| `OPENAI_API_KEY` | OpenAI API のキー（任意）。設定すると LLM タグ抽出・画像→文章化とも OpenAI（ChatGPT系モデル）を優先使用 |
 
 `auto` の場合、**DeepL（キーがあれば）→ Google 翻訳無料エンドポイント → 辞書ベース簡易翻訳** の順にフォールバックします。API キーなしでも動作します（オフライン時は簡易翻訳になります）。
+
+## 画像（イラスト）→ 文章化
+
+入力ペインの「イラストを読み込んで文章化」から画像を読み込むと、Vision LLM が画像の内容を日本語の説明文にして入力欄へ反映します。そのまま「変換を実行」すれば、既存の翻訳・タグ変換フローに流せます。
+
+- 読み込み方法: クリックしてファイル選択 / ドラッグ&ドロップ / Ctrl+V で貼り付け（対応形式: JPEG / PNG / WebP / GIF）
+- 画像はブラウザ側で長辺 1536px の JPEG に縮小してから送信されます（通信量・API 消費の節約）
+- 使用 API: `OPENAI_API_KEY` があれば OpenAI（既定 `gpt-4o-mini`）、なければ `GEMINI_API_KEY` で Gemini（既定 `gemini-2.5-flash`）。どちらも未設定の場合はエラーメッセージを表示します
+- **注意**: OpenAI を使う場合、ChatGPT のアカウントでは利用できません。[platform.openai.com](https://platform.openai.com) での API キー発行とクレジット購入（従量課金）が必要です
 
 ## 変換モード
 
@@ -161,6 +172,8 @@ app/
   page.tsx              3ペインUI（クライアント）
   layout.tsx            ダークテーマレイアウト
   api/convert/route.ts  変換APIエンドポイント（サーバーサイド処理）
+  api/describe/route.ts 画像→文章化APIエンドポイント
+  api/status/route.ts   AI接続状態チェックAPIエンドポイント
 components/
   CopyButton.tsx        コピー + トースト通知
   TagChipList.tsx       カテゴリ別タグチップ表示
@@ -170,6 +183,9 @@ lib/
   translate.ts          translateText() と翻訳プロバイダ群
   mockTranslate.ts      オフライン辞書翻訳（フォールバック）
   tagger.ts             タグ抽出・正規化・ソート
+  llmExtract.ts         LLM（Gemini）によるタグ抽出
+  describeImage.ts      画像→日本語説明文（OpenAI / Gemini Vision）
+  aiStatus.ts           APIキーの有効性チェック
 data/
   tag-dictionary.json   タグ辞書
 ```
@@ -177,6 +193,8 @@ data/
 ## 機能
 
 - 4 つの変換モード（プルダウン切替。入力言語セレクトと連動）
+- 画像（イラスト）→ 日本語説明文の生成（クリック選択 / ドラッグ&ドロップ / Ctrl+V 貼り付け）
+- ヘッダーに AI 接続ステータスを常時表示。起動のたびに API キーの有効性を自動確認し、緑=接続OK / 赤=接続エラー / 灰=キー未設定 で表示（クリックで再確認。確認はモデル情報の取得のみで、無料枠は消費しません）
 - コピー: 翻訳結果 / Positive / Negative / Positive+Negative（成功時トースト通知）
 - 変換履歴: localStorage に直近 20 件保存、クリックで復元
 - エラー処理: 空入力警告 / 翻訳 API 失敗表示 / 「該当タグなし」表示

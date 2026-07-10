@@ -8,11 +8,7 @@ import {
   normalizeTags,
   sortTagsByCategory,
 } from "@/lib/tagger";
-import {
-  extractWithLLM,
-  llmExtractorAvailable,
-  llmExtractorName,
-} from "@/lib/llmExtract";
+import { extractWithLLM, llmExtractorAvailable } from "@/lib/llmExtract";
 import type { ConvertResponse, Lang, MatchedTag, Mode } from "@/lib/types";
 
 const VALID_MODES: Mode[] = ["ja-en-ja", "en-ja-en", "ja-en-tags", "en-ja-tags"];
@@ -46,14 +42,15 @@ export async function POST(req: Request) {
       const jaText = from === "ja" ? text : intermediate.text;
       const enText = from === "en" ? text : intermediate.text;
 
-      // GEMINI_API_KEY があれば LLM で意味抽出（高精度）。
+      // APIキー（OPENAI_API_KEY 優先、なければ GEMINI_API_KEY）があれば LLM で意味抽出（高精度）。
       // 未設定・失敗時は従来の辞書照合にフォールバックする。
       let elements: MatchedTag[];
       let extractor: string;
       if (llmExtractorAvailable()) {
         try {
-          elements = await extractWithLLM({ ja: jaText, en: enText });
-          extractor = llmExtractorName();
+          const llm = await extractWithLLM({ ja: jaText, en: enText });
+          elements = llm.tags;
+          extractor = llm.extractor;
         } catch (err) {
           console.error("LLM tag extraction failed, falling back to dictionary:", err);
           elements = extractSemanticElements({ ja: jaText, en: enText });

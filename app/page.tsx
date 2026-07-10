@@ -1,10 +1,11 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import CopyButton from "@/components/CopyButton";
 import HistoryList from "@/components/HistoryList";
 import TagChipList from "@/components/TagChipList";
 import type {
+  AiStatus,
   ConvertResponse,
   HistoryItem,
   Lang,
@@ -33,6 +34,35 @@ function detectLang(s: string): Lang | null {
   if (/[぀-ヿ㐀-鿿]/.test(s)) return "ja";
   if (/[a-zA-Z]/.test(s)) return "en";
   return null;
+}
+
+/**
+ * 画像ファイルを縮小してJPEGのbase64に変換する。
+ * Vision APIには長辺1536pxあれば十分で、アップロードサイズと消費トークンを抑えられる。
+ * 透過PNGは白背景に合成する（JPEG化で黒くなるのを防ぐ）。
+ */
+async function fileToJpegBase64(
+  file: File,
+  maxDim = 1536,
+): Promise<{ base64: string; mimeType: string; dataUrl: string }> {
+  const bitmap = await createImageBitmap(file);
+  try {
+    const scale = Math.min(1, maxDim / Math.max(bitmap.width, bitmap.height));
+    const w = Math.max(1, Math.round(bitmap.width * scale));
+    const h = Math.max(1, Math.round(bitmap.height * scale));
+    const canvas = document.createElement("canvas");
+    canvas.width = w;
+    canvas.height = h;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) throw new Error("画像の変換に失敗しました（Canvas未対応）");
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, w, h);
+    ctx.drawImage(bitmap, 0, 0, w, h);
+    const dataUrl = canvas.toDataURL("image/jpeg", 0.9);
+    return { base64: dataUrl.split(",")[1], mimeType: "image/jpeg", dataUrl };
+  } finally {
+    bitmap.close();
+  }
 }
 
 function PaneHeader({
@@ -88,6 +118,33 @@ export default function Home() {
   const [rightTab, setRightTab] = useState<RightTab>("prompt");
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [toast, setToast] = useState<string | null>(null);
+  const [describing, setDescribing] = useState(false);
+  const [imagePreview, setImagePreview] = useState<string | null>(null);
+  const [dragging, setDragging] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  /** AI接続状態。null = 確認中 */
+  const [aiStatus, setAiStatus] = useState<AiStatus | null>(null);
+
+  /** AI（Vision/LLM）APIの接続状態を確認する。起動時とピルのクリックで実行 */
+  const checkAi = useCallback(async () => {
+    setAiStatus(null);
+    try {
+      const res = await fetch("/api/status");
+      if (!res.ok) throw new Error();
+      setAiStatus((await res.json()) as AiStatus);
+    } catch {
+      setAiStatus({
+        configured: true,
+        ok: false,
+        provider: null,
+        error: "サーバーに接続できません",
+      });
+    }
+  }, []);
+
+  useEffect(() => {
+    void checkAi();
+  }, [checkAi]);
 
   const sourceLang = modeSourceLang(mode);
   const tagMode = isTagMode(mode);
@@ -126,6 +183,62 @@ export default function Home() {
       /* noop */
     }
   }, []);
+
+  /** 画像を読み込んで日本語の説明文に変換し、入力欄に反映する */
+  const describeImageFile = useCallback(
+    async (file: File) => {
+      if (describing) return;
+      if (!file.type.startsWith("image/")) {
+        setError("画像ファイルを選択してください（JPEG / PNG / WebP / GIF）");
+        return;
+      }
+      setDescribing(true);
+      setError(null);
+      try {
+        const { base64, mimeType, dataUrl } = await fileToJpegBase64(file);
+        setImagePreview(dataUrl);
+        const res = await fetch("/api/describe", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ image: base64, mimeType }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          throw new Error(data?.error ?? `画像の文章化に失敗しました (HTTP ${res.status})`);
+        }
+        setText(data.description);
+        // 説明文は日本語なので、入力言語を日本語に合わせる（変換タイプは維持）
+        setMode((prev) => composeMode("ja", isTagMode(prev)));
+        notify(`画像を文章化しました（${data.provider}）`);
+      } catch (err) {
+        if (err instanceof TypeError) {
+          setError(
+            "サーバーに接続できません。「PromptBridge起動.bat」でサーバーを起動してから、ページを再読み込みして再実行してください。",
+          );
+        } else {
+          setError(err instanceof Error ? err.message : "画像の文章化でエラーが発生しました");
+        }
+      } finally {
+        setDescribing(false);
+      }
+    },
+    [describing, notify],
+  );
+
+  /** クリップボードから画像を貼り付けたら文章化する（テキスト貼り付けは通常どおり） */
+  const onPasteImage = useCallback(
+    (e: React.ClipboardEvent) => {
+      const item = Array.from(e.clipboardData.items).find((i) =>
+        i.type.startsWith("image/"),
+      );
+      if (!item) return;
+      const file = item.getAsFile();
+      if (!file) return;
+      e.preventDefault();
+      void describeImageFile(file);
+    },
+    [describeImageFile],
+  );
 
   const run = useCallback(async (textArg?: string, modeArg?: Mode) => {
     const inputText = textArg ?? text;
@@ -257,14 +370,50 @@ export default function Home() {
             翻訳 & Stable Diffusion向け Danbooruタグ変換
           </span>
         </h1>
-        <span className="rounded-full border border-panelBorder bg-[#1a1d24] px-3 py-1 text-[11px] text-gray-400">
-          {MODE_LABELS[mode]}
-        </span>
+        <div className="flex items-center gap-2">
+          {/* AI接続ステータス（クリックで再確認） */}
+          <button
+            type="button"
+            onClick={() => void checkAi()}
+            title={
+              aiStatus === null
+                ? "AI接続を確認しています..."
+                : !aiStatus.configured
+                  ? "APIキー未設定。タグ抽出は辞書照合で動作し、画像の文章化は使えません。.env.local に GEMINI_API_KEY を設定してください（クリックで再確認）"
+                  : aiStatus.ok
+                    ? `${aiStatus.provider} に接続済み。タグ抽出と画像の文章化に使用します（クリックで再確認）`
+                    : `${aiStatus.error ?? "AI接続エラー"}（クリックで再確認）`
+            }
+            className="flex items-center gap-1.5 rounded-full border border-panelBorder bg-[#1a1d24] px-3 py-1 text-[11px] text-gray-400 transition hover:border-gray-500"
+          >
+            <span
+              className={`inline-block h-2 w-2 rounded-full ${
+                aiStatus === null
+                  ? "animate-pulse bg-gray-500"
+                  : !aiStatus.configured
+                    ? "bg-gray-500"
+                    : aiStatus.ok
+                      ? "bg-green-400"
+                      : "bg-red-400"
+              }`}
+            />
+            {aiStatus === null
+              ? "AI接続確認中..."
+              : !aiStatus.configured
+                ? "AI未設定（辞書照合）"
+                : aiStatus.ok
+                  ? `AI接続OK: ${aiStatus.provider}`
+                  : "AI接続エラー"}
+          </button>
+          <span className="rounded-full border border-panelBorder bg-[#1a1d24] px-3 py-1 text-[11px] text-gray-400">
+            {MODE_LABELS[mode]}
+          </span>
+        </div>
       </header>
 
       <main className="grid flex-1 grid-cols-1 gap-3 overflow-y-auto p-3 lg:grid-cols-3 lg:overflow-hidden">
         {/* ===== 左ペイン: 入力 ===== */}
-        <section className={paneClass}>
+        <section className={paneClass} onPaste={onPasteImage}>
           <PaneHeader
             step="1"
             title="入力"
@@ -273,6 +422,7 @@ export default function Home() {
                 type="button"
                 onClick={() => {
                   setText("");
+                  setImagePreview(null);
                   setError(null);
                 }}
                 disabled={!text}
@@ -283,32 +433,124 @@ export default function Home() {
             }
           />
           <div className="flex flex-1 flex-col gap-3 overflow-y-auto p-4">
-            <div className="grid grid-cols-[110px_1fr] gap-2">
-              <label className="flex flex-col gap-1 text-[11px] text-gray-500">
-                入力言語
-                <select
-                  value={sourceLang}
-                  onChange={(e) => setMode(composeMode(e.target.value as Lang, tagMode))}
-                  className={selectClass}
+            {/* 画像→文章化（左）+ 言語・モード選択（右） */}
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/jpeg,image/png,image/webp,image/gif"
+              className="hidden"
+              onChange={(e) => {
+                const file = e.target.files?.[0];
+                e.target.value = "";
+                if (file) void describeImageFile(file);
+              }}
+            />
+            <div className="grid grid-cols-[minmax(170px,210px)_1fr] gap-3">
+              <div className="relative">
+                <button
+                  type="button"
+                  onClick={() => fileInputRef.current?.click()}
+                  onDragOver={(e) => {
+                    e.preventDefault();
+                    setDragging(true);
+                  }}
+                  onDragLeave={() => setDragging(false)}
+                  onDrop={(e) => {
+                    e.preventDefault();
+                    setDragging(false);
+                    const file = e.dataTransfer.files?.[0];
+                    if (file) void describeImageFile(file);
+                  }}
+                  disabled={describing}
+                  className={`flex h-full min-h-[124px] w-full flex-col items-center justify-center gap-2 rounded-md border border-dashed px-3 py-3 text-center transition disabled:cursor-wait ${
+                    dragging
+                      ? "border-accent bg-accent/10"
+                      : "border-panelBorder bg-[#12141a] hover:border-accent"
+                  }`}
                 >
-                  <option value="ja">日本語</option>
-                  <option value="en">英語</option>
-                </select>
-              </label>
-              <label className="flex flex-col gap-1 text-[11px] text-gray-500">
-                変換モード
-                <select
-                  value={mode}
-                  onChange={(e) => setMode(e.target.value as Mode)}
-                  className={selectClass}
-                >
-                  {MODES.map((m) => (
-                    <option key={m} value={m}>
-                      {MODE_LABELS[m]}
-                    </option>
-                  ))}
-                </select>
-              </label>
+                  {describing ? (
+                    <>
+                      <span className="inline-block h-5 w-5 animate-spin rounded-full border-2 border-gray-500/40 border-t-gray-300" />
+                      <span className="text-xs font-medium text-gray-300">
+                        画像を文章化しています...
+                      </span>
+                    </>
+                  ) : imagePreview ? (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={imagePreview}
+                        alt="読み込んだ画像"
+                        className="max-h-[72px] max-w-full rounded object-contain"
+                      />
+                      <span className="text-[10px] text-gray-600">
+                        クリックで別の画像を選択
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      <svg
+                        className="h-6 w-6 text-gray-500"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="9" cy="9" r="2" />
+                        <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+                      </svg>
+                      <span className="text-xs font-medium text-gray-300">
+                        イラストを読み込んで文章化
+                      </span>
+                      <span className="text-[10px] leading-relaxed text-gray-600">
+                        クリックで選択 / ドラッグ&ドロップ
+                        <br />
+                        Ctrl+V で貼り付け
+                      </span>
+                    </>
+                  )}
+                </button>
+                {imagePreview && !describing && (
+                  <button
+                    type="button"
+                    onClick={() => setImagePreview(null)}
+                    title="画像をクリア"
+                    className="absolute right-1.5 top-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-black/60 text-[11px] text-gray-300 transition hover:bg-black/80 hover:text-white"
+                  >
+                    ×
+                  </button>
+                )}
+              </div>
+              <div className="flex flex-col justify-center gap-2">
+                <label className="flex flex-col gap-1 text-[11px] text-gray-500">
+                  入力言語
+                  <select
+                    value={sourceLang}
+                    onChange={(e) => setMode(composeMode(e.target.value as Lang, tagMode))}
+                    className={selectClass}
+                  >
+                    <option value="ja">日本語</option>
+                    <option value="en">英語</option>
+                  </select>
+                </label>
+                <label className="flex flex-col gap-1 text-[11px] text-gray-500">
+                  変換モード
+                  <select
+                    value={mode}
+                    onChange={(e) => setMode(e.target.value as Mode)}
+                    className={selectClass}
+                  >
+                    {MODES.map((m) => (
+                      <option key={m} value={m}>
+                        {MODE_LABELS[m]}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
             </div>
 
             <div className="flex min-h-[180px] flex-1 flex-col gap-1">
@@ -405,7 +647,7 @@ export default function Home() {
               </div>
             </>
           ) : (
-            <EmptyState message="左ペインでテキストを入力し「変換を実行」を押すと、ここに翻訳が表示されます" />
+            <EmptyState message="左ペインでテキストを入力するかイラストを読み込み、「変換を実行」を押すと、ここに翻訳が表示されます" />
           )}
         </section>
 

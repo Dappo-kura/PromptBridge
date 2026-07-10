@@ -56,6 +56,26 @@ export interface ConvertResponse {
   noTagsMatched: boolean;
 }
 
+/** AI接続状態（/api/status のレスポンス） */
+export interface AiStatus {
+  /** APIキー（OPENAI_API_KEY / GEMINI_API_KEY）が設定されているか */
+  configured: boolean;
+  /** キーが実際に有効で、APIに接続できたか */
+  ok: boolean;
+  /** 使用プロバイダ名（例: "Gemini (gemini-2.5-flash)"。未設定時は null） */
+  provider: string | null;
+  /** 接続失敗時のエラーメッセージ */
+  error: string | null;
+}
+
+/** 画像→文章化API（/api/describe）のレスポンス */
+export interface DescribeResponse {
+  /** 生成された日本語の説明文 */
+  description: string;
+  /** 使用したVisionプロバイダ名（例: "Gemini (gemini-2.5-flash)"） */
+  provider: string;
+}
+
 export interface HistoryItem {
   id: string;
   mode: Mode;
